@@ -1,45 +1,70 @@
-# SCI Serial Port and 7-segment Display at PORTB
-
-This repository contains a program for the CodeWarrior HSC12 board that demonstrates the use of the SCI (Serial Communication Interface) port for serial communication and controls LEDs on PORTB. This program is designed for educational purposes and showcases various functionalities based on user input.
+# Project Title: SCI Serial Port and 7-segment Display at PORTB
 
 ## Academic Integrity Statement
 
-Please note that all work included in this project is the original work of the author, Sai Narayan, and any external sources or references have been properly cited and credited. It is strictly prohibited to copy, reproduce, or use any part of this work without permission from the author.
+**Academic Integrity Statement**
+
+Please note that all work included in this project is the original work of the author, and any external sources or references have been properly cited and credited. It is strictly prohibited to copy, reproduce, or use any part of this work without permission from the author.
 
 If you choose to use any part of this work as a reference or resource, you are responsible for ensuring that you do not plagiarize or violate any academic integrity policies or guidelines. The author of this work cannot be held liable for any legal or academic consequences resulting from the misuse or misappropriation of this work.
 
 In summary, any unauthorized copying or use of this work may result in serious consequences, including but not limited to academic penalties, legal action, and damage to personal and professional reputation. Therefore, please use this work only as a reference and always ensure that you properly cite and attribute any sources or references used.
 
+---
+
+## Project Overview
+
+This project demonstrates the use of SCI (Serial Communication Interface) serial port I/O and the 7-segment display on a CodeWarrior HSC12 board. The program allows for interaction with a terminal connected over serial communication, offering various functionalities based on user choices. These functionalities include flashing LEDs and displaying ASCII data on PORTB through 7-segment displays.
+
 ## Setup Instructions
 
-To run this program on a CodeWarrior HSC12 board, follow these setup instructions:
+To run this program on a CodeWarrior HSC12 board using CodeWarrior software, follow these setup instructions:
 
-1. Ensure you have the CodeWarrior software installed on your computer.
+1. **Install CodeWarrior Software:**
+   - Ensure you have the CodeWarrior software installed on your computer.
 
-2. Connect your CodeWarrior HSC12 board to your computer using the appropriate interface cable.
+2. **Connect the Hardware:**
+   - Connect the CodeWarrior HSC12 board to your computer using the appropriate interface (e.g., USB).
 
-3. Open the CodeWarrior software and create a new project.
+3. **Compile and Load the Program:**
+   - Open the CodeWarrior IDE.
+   - Create a new project or open an existing one, and add the provided source code to the project.
+   - Build and compile the project to generate the executable binary file.
 
-4. Import the provided source code into your project.
+4. **Load the Program onto the HSC12 Board:**
+   - Use the CodeWarrior software to load the compiled binary file onto the CodeWarrior HSC12 board.
 
-5. Configure the project settings to target the HSC12 board.
+5. **Connect a Terminal Emulator:**
+   - Open a terminal emulator (e.g., Hyper Terminal or PuTTY) on your computer.
 
-6. Build the project to generate the binary executable.
+6. **Configure Serial Communication:**
+   - Configure the terminal emulator to use the same serial communication settings as specified in the code (e.g., baud rate, data bits, stop bits, and parity).
 
-7. Flash the executable onto the HSC12 board using the appropriate flashing tool.
+7. **Run the Program:**
+   - Start the CodeWarrior HSC12 board.
+   - You should see output on the terminal emulator corresponding to the program's menu.
 
-8. Power on the HSC12 board.
+8. **Interact with the Program:**
+   - Follow the on-screen instructions in the terminal emulator to interact with the program and choose different functionalities.
 
-## Running the Program
+## Program Details
 
-Once the program is flashed onto the HSC12 board, it will start running automatically. The program is menu-based and interacts with a terminal (such as HyperTerminal) to display information and receive user input. Follow the on-screen instructions to choose different functionalities, such as controlling LEDs or running the typewriter program.
+- The program demonstrates various functionalities, including LED flashing and displaying ASCII data on PORTB using 7-segment displays.
 
-The program's main menu provides options to control LEDs and run the typewriter program. You can enter commands through the terminal connected to the HSC12 board to select these options.
+- Users can input commands in the terminal emulator to trigger different actions, such as turning on and off LEDs or quitting the program.
 
-Please note that the program expects specific command inputs, as described in the menu options. Follow the provided menu instructions to interact with the program effectively.
+- The program includes delay routines for timing purposes, ASCII character handling, and menu display.
 
-## Feedback and Contributions
+## Author
 
-If you encounter any issues with this program or have suggestions for improvements, please feel free to open an issue or submit a pull request. Your feedback and contributions are highly appreciated.
+- Original Programmer: Kyusun Choi
+- Modified by: Sai Narayan
+- Company: The Pennsylvania State University
+- Department: Computer Science and Engineering
 
-Enjoy exploring and experimenting with the CodeWarrior HSC12 board using this program!
+## Revision History
+
+- Version: V1 for CodeWarrior 4.2 Debugger Simulation
+- Date: February 17, 2023
+
+---
