@@ -56,11 +56,8 @@ To run this program on a CodeWarrior HSC12 board using CodeWarrior software, fol
 - The program includes delay routines for timing purposes, ASCII character handling, and menu display.
 
 ## Author
-
-- Original Programmer: Kyusun Choi
 - Modified by: Sai Narayan
-- Company: The Pennsylvania State University
-- Department: Computer Science and Engineering
+               The Pennsylvania State University
 
 ## Revision History
 
