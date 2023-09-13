@@ -55,13 +55,3 @@ To run this program on a CodeWarrior HSC12 board using CodeWarrior software, fol
 
 - The program includes delay routines for timing purposes, ASCII character handling, and menu display.
 
-## Author
-- Modified by: Sai Narayan
-               The Pennsylvania State University
-
-## Revision History
-
-- Version: V1 for CodeWarrior 4.2 Debugger Simulation
-- Date: February 17, 2023
-
----
