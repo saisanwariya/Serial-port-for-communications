@@ -1,4 +1,4 @@
-# Project Title: SCI Serial Port and 7-segment Display at PORTB
+# SCI Serial Port and 7-segment Display at PORTB
 
 ## Academic Integrity Statement
 
